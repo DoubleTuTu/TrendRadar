@@ -15,6 +15,11 @@
 
 [WORD_GROUPS]
 
+# ── AI 行业大事件（宽词，抓大势）──
+[AI大事件]
+/\bOpenAI\b|\bChatGPT\b|大模型|人工智能|DeepSeek|\bAnthropic\b|\bGemini\b/ => AI大事件
+@6
+
 # ── 主赛道：AI 视频生成 ──
 [AI视频生成]
 /即梦|可灵|海螺|Vidu|文生视频|图生视频|AI视频|视频生成/ => AI视频
